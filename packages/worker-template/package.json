@@ -1,0 +1,22 @@
+{
+  "name": "hivemind-worker-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HiveMind Worker Agent template — fork and build your own agent",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "hono": "^4.7.0",
+    "hivemind-sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250410.0",
+    "typescript": "^5.7.0",
+    "wrangler": "^4.0.0"
+  }
+}

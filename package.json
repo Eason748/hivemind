@@ -1,0 +1,9 @@
+{
+  "name": "hivemind",
+  "private": true,
+  "description": "AI Agent swarm coordination protocol on Solana x402",
+  "scripts": {},
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}

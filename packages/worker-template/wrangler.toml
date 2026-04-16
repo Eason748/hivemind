@@ -1,0 +1,7 @@
+name = "hivemind-worker"
+main = "src/index.ts"
+compatibility_date = "2025-04-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Set your Worker wallet private key as a secret:
+# wrangler secret put WORKER_PRIVATE_KEY
